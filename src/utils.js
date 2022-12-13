@@ -9,7 +9,6 @@ export async function request(url) {
 }
 
 export function getCurrencyPrice(prices, isInEurope) {
-  console.debug(isInEurope);
   const currency = isInEurope ? "EUR" : "USD";
   const coursePrice = prices?.find(
     (price) => price.currency.toLowerCase() === currency.toLowerCase()
