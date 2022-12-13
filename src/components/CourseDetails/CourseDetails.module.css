@@ -1,0 +1,29 @@
+.courseDetailsSection {
+  background-color: var(--backgroundSecondary);
+  color: var(--colorDark);
+  padding: 8px 16px;
+  border-radius: 5px;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.courseDetailsWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.5fr;
+  gap: 30px;
+}
+
+.courseDetails {
+  display: grid;
+  gap: 8px;
+  text-align: center;
+  align-content: flex-start;
+}
+
+@media only screen and (max-width: 600px) {
+  .courseDetailsWrapper {
+    grid-template-columns: 1fr;
+  }
+}

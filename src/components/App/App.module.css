@@ -1,0 +1,50 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 16px;
+}
+
+.coursesHeadingsSection {
+  background-color: var(--backgroundDark);
+  color: var(--colorLight);
+  text-align: center;
+  padding: 24px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  min-height: 240px;
+}
+
+.headingsWrapper {
+  display: grid;
+  grid-auto-flow: row;
+  gap: 5px;
+}
+
+.title {
+  font-size: clamp(22px, 5vw, 30px);
+}
+
+.description {
+  font-size: clamp(14px, 5vww, 18px);
+}
+
+.coursesWrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 250px));
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+  .coursesHeadingsSection {
+    gap: 20px;
+  }
+  .coursesWrapper {
+    justify-content: center;
+    gap: 10px;
+  }
+}
