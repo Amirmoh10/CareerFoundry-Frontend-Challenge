@@ -35,7 +35,6 @@ npm test
   - Course price in the correct currency based on the user's geolocation( USD is used for any country outside the EU).
   - Next course start date.
   - Following future start dates.
-- ✅ Messages should be sent/received through our SocketClient.
 
 ## Potential improvements
 
