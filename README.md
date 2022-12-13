@@ -1,4 +1,6 @@
-# CareerFoundry Frontend Developer Challenge 🤖
+# CareerFoundry Frontend Developer Challenge
+
+- [Live demo](https://career-foundry-frontend-challenge.vercel.app/)
 
 This repo contains the app requested as part of CareerFoundry's frontend developer challenge.
 
